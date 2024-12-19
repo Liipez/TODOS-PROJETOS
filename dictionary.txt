@@ -1,0 +1,732 @@
+# API
+- Definição: Conjunto de funções e rotinas que permitem a comunicação entre aplicações de software.
+- Função: Facilita a integração entre sistemas diferentes, fornecendo uma interface padronizada para que as aplicações possam interagir.
+
+# append
+Descrição: Adiciona um item ao final de uma lista.
+
+Exemplo:
+lista = [1, 2, 3]
+lista.append(4)
+print(lista)
+# Saída: [1, 2, 3, 4]
+
+# Algoritmo
+- Definição: Um conjunto de instruções passo a passo que resolve um problema ou realiza uma tarefa.
+- Exemplo: Um algoritmo para somar dois números pode ser descrito em termos de etapas claras, como "pegar o primeiro número, adicionar ao segundo e retornar o resultado."
+
+---
+
+# Banco de Dados
+- Definição: Sistema organizado para armazenar, gerenciar e recuperar dados de forma eficiente.
+- Função: Utilizado para armazenar grandes volumes de informações que podem ser acessadas por aplicações e usuários.
+
+# Bit
+- Definição: A menor unidade de informação em um computador, representando 0 ou 1.
+- Função: Serve como a base para todas as operações computacionais, formando bytes, que por sua vez formam todos os dados que os computadores processam.
+
+# break
+Descrição: Interrompe a execução de um laço (for ou while).
+
+Exemplo:
+for i in range(5):
+    if i == 3:
+        break
+    print(i)
+# Saída: 0, 1, 2
+
+---
+
+# C
+- Definição: Uma linguagem de programação de baixo nível, mas versátil, utilizada para desenvolvimento de sistemas operacionais e software.
+- História: Criada por Dennis Ritchie nos anos 70, foi usada no desenvolvimento inicial do Unix.
+
+# Cache
+- Definição: Um tipo de memória que armazena temporariamente dados acessados com frequência para melhorar o desempenho.
+- Função: Reduz o tempo de acesso aos dados mais usados, otimizando o desempenho do sistema.
+
+# continue
+Descrição: Pula para a próxima iteração de um laço, sem executar o restante do código no bloco atual.
+
+Exemplo:
+for i in range(5):
+    if i == 3:
+        continue
+    print(i)
+# Saída: 0, 1, 2, 4
+
+---
+
+# DNS
+- Definição: Sistema que traduz nomes de domónio em endereços IP.
+- Função: Facilita o acesso a sites, convertendo nomes amigáveis, como `www.example.com`, em endereços IP que os computadores utilizam para se comunicar.
+
+# Data Center
+- Definição: Local físico que abriga servidores e outros equipamentos para armazenar e gerenciar grandes volumes de dados.
+- Função: Serve como o núcleo de operações de TI para muitas empresas, garantindo que dados e sistemas permaneçam disponíveis e seguros.
+
+# def
+Descri��o: Define uma fun��o.
+
+Exemplo:
+def saudacao(nome):
+    print(f"Ol�, {nome}!")
+
+saudacao("Jo�o")
+# Sa�da: Ol�, Jo�o!
+
+---
+
+# elif
+Descri��o: Verifica uma nova condi��o, caso o if original seja falso.
+
+Exemplo:
+x = 10
+if x > 10:
+    print("Maior que 10")
+elif x == 10:
+    print("Igual a 10")
+else:
+    print("Menor que 10")
+# Sa�da: Igual a 10
+
+# else
+Descri��o: Executa um bloco de c�digo se as condi��es if e elif forem falsas.
+
+Exemplo:
+x = 5
+if x > 5:
+    print("Maior que 5")
+else:
+    print("Menor ou igual a 5")
+# Sa�da: Menor ou igual a 5
+
+# Ethernet
+- Defini��o: Um padr�o de tecnologia de rede que permite a comunica��o entre dispositivos em uma rede local (LAN).
+- Fun��o: Facilita a transmiss�o de dados entre computadores e outros dispositivos conectados.
+
+# Exce��o
+- Defini��o: Evento ou erro inesperado que ocorre durante a execu��o de um programa.
+- Fun��o: Capturar e lidar com exce��es evita que o programa pare inesperadamente. Em Python, isso � feito com `try` e `except`.
+
+---
+
+# Firewall
+- Defini��o: Um sistema de seguran�a que monitora e controla o tr�fego de entrada e sa�da em uma rede.
+- Fun��o: Protege as redes de acessos n�o autorizados, bloqueando tr�fego malicioso.
+
+# Framework
+- Defini��o: Conjunto de ferramentas e bibliotecas que facilitam o desenvolvimento de software.
+- Fun��o: Oferece estruturas e conven��es prontas para o desenvolvimento de aplica��es, reduzindo a quantidade de c�digo que o programador precisa escrever.
+
+# for
+Descri��o: La�o de repeti��o que percorre uma sequ�ncia (lista, string, etc.).
+
+Exemplo:
+for i in range(3):
+    print(i)
+# Sa�da: 0, 1, 2
+
+# Fonte de Alimenta��o
+- Defini��o: A fonte de alimenta��o converte a energia da tomada em energia utiliz�vel para os componentes internos do computador.
+- Fun��o: Ela garante que todos os componentes recebam a quantidade certa de energia para funcionar corretamente.
+
+# float()
+Descri��o: Converte um valor em um n�mero de ponto flutuante (decimal).
+
+Exemplo:
+texto = "3.14"
+numero = float(texto)
+print(numero)
+# Sa�da: 3.14
+
+# FTP
+- Defini��o: Protocolo para transfer�ncia de arquivos entre um cliente e um servidor na rede.
+- Fun��o: Permite o upload e download de arquivos de forma remota.
+
+---
+
+# Gigabyte
+- Defini��o: Unidade de medida de dados, equivalente a 1.024 megabytes (MB).
+- Fun��o: Utilizada para medir a capacidade de armazenamento de dispositivos, como discos r�gidos e mem�rias.
+
+---
+
+# HTML
+- Definição: Linguagem de marcação usada para criar páginas da web.
+- Função: Define a estrutura e o conteúdo de uma página web por meio de tags, como `<h1>`, `<p>`, `<a>`, etc.
+
+# HTTP
+- Definição: Protocolo utilizado para a transferência de informações na web.
+- Fun��o: Permite a comunica��o entre navegadores e servidores web.
+
+# HTTPS
+- Defini��o: Vers�o segura do HTTP que utiliza criptografia SSL/TLS.
+- Fun��o: Garante a seguran�a e a privacidade dos dados transmitidos na web.
+
+---
+
+# IP
+- Defini��o: Protocolo que define como os pacotes de dados s�o enviados de um ponto a outro na internet.
+- Fun��o: Cada dispositivo na rede recebe um endere�o IP, que � utilizado para identificar e localizar esse dispositivo.
+
+# IDE
+- Definição: Ambiente de Desenvolvimento Integrado, que oferece ferramentas como editor de c�digo, depurador e compilador em uma �nica interface.
+- Exemplo: VS Code, PyCharm e Eclipse s�o exemplos populares de IDEs.
+
+# if
+Descrição: Executa um bloco de código se a condição for verdadeira.
+
+Exemplo:
+x = 5
+if x > 3:
+    print("Maior que 3")
+# Sa�da: Maior que 3
+
+# input()
+Descri��o: Recebe uma entrada do usu�rio como string.
+
+Exemplo:
+nome = input("Digite seu nome: ")
+print(f"Ol�, {nome}!")
+
+# int()
+Descri��o: Converte um valor em um n�mero inteiro.
+
+Exemplo:
+texto = "42"
+numero = int(texto)
+print(numero)
+# Sa�da: 42
+
+---
+
+# Java
+- Defini��o: Java � uma linguagem de programa��o orientada a objetos, que � compilada para bytecode e executada em uma m�quina virtual (JVM), tornando-a altamente port�vel.
+- Hist�ria: Desenvolvida pela Sun Microsystems em 1995, Java foi criada para ser usada em uma ampla variedade de dispositivos, desde pequenos aparelhos at� grandes servidores.
+
+# JavaScript
+- Defini��o: Linguagem de script usada para criar interatividade em p�ginas web.
+- Fun��o: Permite o desenvolvimento de funcionalidades din�micas em sites, como anima��es, valida��o de formul�rios e muito mais.
+
+---
+
+# Kernel
+- Defini��o: N�cleo do sistema operacional, respons�vel por gerenciar os recursos do computador e permitir a comunica��o entre hardware e software.
+- Fun��o: Controla tarefas fundamentais como gerenciamento de mem�ria, processos e dispositivos de hardware.
+
+---
+
+# LAN
+- Defini��o: Rede de computadores que abrange uma �rea geogr�fica limitada, como uma casa ou escrit�rio.
+- Fun��o: Permite a comunica��o e o compartilhamento de recursos entre dispositivos em uma �rea local.
+
+# len()
+Descri��o: Retorna o n�mero de elementos em uma sequ�ncia (lista, string, etc.).
+
+Exemplo:
+lista = [1, 2, 3, 4]
+print(len(lista))
+# Sa�da: 4
+
+# list()
+Descri��o: Converte uma sequ�ncia (como uma string ou tupla) em uma lista.
+
+Exemplo:
+texto = "abc"
+lista = list(texto)
+print(lista)
+# Sa�da: ['a', 'b', 'c']
+
+# Loop (La�o de Repeti��o)
+- Defini��o: Estrutura de controle que repete um bloco de c�digo enquanto uma condi��o � verdadeira.
+- Tipos: `for`, `while`
+
+# while
+Descri��o: La�o de repeti��o que executa enquanto a condi��o � verdadeira.
+
+Exemplo:
+i = 0
+while i < 3:
+    print(i)
+    i += 1
+# Sa�da: 0, 1, 2
+
+
+# abs()
+A fun��o abs() retorna o valor absoluto de um n�mero. Exemplo: abs(-5) retorna 5.
+
+---
+
+# all()
+A fun��o all() retorna True se todos os elementos de um iter�vel forem verdadeiros ou se o iter�vel estiver vazio. Exemplo: all([True, True, False]) retorna False.
+
+---
+
+# any()
+A fun��o any() retorna True se algum dos elementos de um iter�vel for verdadeiro. Exemplo: any([False, True, False]) retorna True.
+
+---
+
+# ascii()
+A fun��o ascii() retorna uma representa��o de string com apenas caracteres ASCII. Exemplo: ascii('Ol�') retorna 'Ol\u00e1'.
+
+---
+
+# bin()
+A fun��o bin() converte um n�mero inteiro em sua representa��o bin�ria. Exemplo: bin(10) retorna '0b1010'.
+
+---
+
+# bool()
+A fun��o bool() converte um valor em um tipo booleano (True ou False). Exemplo: bool(0) retorna False.
+
+---
+
+# bytearray()
+A fun��o bytearray() retorna um array de bytes mut�vel. Exemplo: bytearray('Hello', 'utf-8') cria um array de bytes a partir de uma string.
+
+---
+
+# bytes()
+A fun��o bytes() retorna um objeto imut�vel de bytes. Exemplo: bytes(5) cria um objeto de 5 bytes preenchidos com zeros.
+
+---
+
+# callable()
+A fun��o callable() verifica se o objeto passado pode ser chamado como uma fun��o. Exemplo: callable(print) retorna True.
+
+---
+
+# chr()
+A fun��o chr() retorna o caractere correspondente ao n�mero Unicode passado. Exemplo: chr(65) retorna 'A'.
+
+---
+
+# classmethod()
+O decorator @classmethod � usado para definir m�todos de classe, que recebem a classe como primeiro argumento (cls) em vez da inst�ncia (self).
+
+---
+
+# compile()
+A fun��o compile() compila c�digo-fonte Python em c�digo objeto, que pode ser executado por exec() ou eval(). Exemplo: compile('x=5\nprint(x)', '', 'exec').
+
+---
+
+# complex()
+A fun��o complex() cria um n�mero complexo. Exemplo: complex(1, 2) retorna (1+2j).
+
+---
+
+# delattr()
+A fun��o delattr() remove um atributo de um objeto. Exemplo: delattr(obj, 'attr').
+
+---
+
+# dir()
+A fun��o dir() retorna uma lista de atributos e m�todos de um objeto. Exemplo: dir([]) retorna os m�todos de listas.
+
+---
+
+# divmod()
+A fun��o divmod() retorna o quociente e o resto de uma divis�o. Exemplo: divmod(10, 3) retorna (3, 1).
+
+---
+
+# enumerate()
+A fun��o enumerate() adiciona um contador a um iter�vel, retornando pares (�ndice, valor). Exemplo: enumerate(['a', 'b', 'c']) retorna [(0, 'a'), (1, 'b'), (2, 'c')].
+
+---
+
+# eval()
+A fun��o eval() avalia uma express�o Python passada como string. Exemplo: eval('2 + 2') retorna 4.
+
+---
+
+# exec()
+A fun��o exec() executa c�digo Python din�mico a partir de uma string ou c�digo compilado. Exemplo: exec('print("Hello")').
+
+---
+
+# float()
+A fun��o float() converte um n�mero ou string em um n�mero de ponto flutuante. Exemplo: float('3.14') retorna 3.14.
+
+---
+
+# format()
+A fun��o format() formata uma string usando placeholders. Exemplo: 'Hello {}'.format('world') retorna 'Hello world'.
+
+---
+
+# frozenset()
+A fun��o frozenset() retorna um conjunto imut�vel. Exemplo: frozenset([1, 2, 3]) cria um conjunto imut�vel.
+
+---
+
+# getattr()
+A fun��o getattr() retorna o valor de um atributo de um objeto. Exemplo: getattr(obj, 'attr') retorna o valor de 'attr'.
+
+---
+
+# globals()
+A fun��o globals() retorna um dicion�rio que cont�m todas as vari�veis globais no contexto atual.
+
+---
+
+# hasattr()
+A fun��o hasattr() verifica se um objeto tem um atributo espec�fico. Exemplo: hasattr(obj, 'attr') retorna True se 'attr' existir.
+
+---
+
+# hash()
+A fun��o hash() retorna o valor hash de um objeto (�til em dicion�rios e conjuntos). Exemplo: hash('hello') retorna um valor inteiro hash.
+
+---
+
+# help()
+A fun��o help() exibe o sistema de ajuda embutido do Python. Exemplo: help(print) exibe a documenta��o da fun��o print().
+
+---
+
+# hex()
+A fun��o hex() converte um n�mero inteiro em sua representa��o hexadecimal. Exemplo: hex(255) retorna '0xff'.
+
+---
+
+# id()
+A fun��o id() retorna o identificador �nico de um objeto. Exemplo: id(x) retorna um n�mero �nico para o objeto x.
+
+---
+
+# input()
+A fun��o input() recebe uma entrada do usu�rio como string. Exemplo: input('Digite algo: ') aguarda o usu�rio digitar algo.
+
+---
+
+# int()
+A fun��o int() converte um n�mero ou string em um n�mero inteiro. Exemplo: int('123') retorna 123.
+
+---
+
+# isinstance()
+A fun��o isinstance() verifica se um objeto � uma inst�ncia de uma classe ou uma tupla de classes. Exemplo: isinstance(5, int) retorna True.
+
+---
+
+# issubclass()
+A fun��o issubclass() verifica se uma classe � uma subclasse de outra. Exemplo: issubclass(bool, int) retorna True.
+
+---
+
+# iter()
+A fun��o iter() retorna um iterador de um objeto. Exemplo: iter([1, 2, 3]) retorna um iterador da lista.
+
+---
+
+# locals()
+A fun��o locals() retorna um dicion�rio que cont�m as vari�veis locais no contexto atual.
+
+---
+
+# max()
+A fun��o max() retorna o maior valor de um iter�vel ou entre argumentos. Exemplo: max([1, 2, 3]) retorna 3.
+
+---
+
+# min()
+A fun��o min() retorna o menor valor de um iter�vel ou entre argumentos. Exemplo: min([1, 2, 3]) retorna 1.
+
+---
+
+# next()
+A fun��o next() obt�m o pr�ximo item de um iterador. Exemplo: next(iter([1, 2, 3])) retorna 1.
+
+---
+
+# object()
+A fun��o object() � a classe base de todos os objetos em Python.
+
+---
+
+# oct()
+A fun��o oct() converte um n�mero inteiro em sua representa��o octal. Exemplo: oct(8) retorna '0o10'.
+
+---
+
+# open()
+A fun��o open() abre um arquivo e retorna um objeto de arquivo. Exemplo: open('file.txt', 'r') abre um arquivo para leitura.
+
+---
+
+# ord()
+A fun��o ord() retorna o valor Unicode de um caractere. Exemplo: ord('A') retorna 65.
+
+---
+
+# pow()
+A fun��o pow() retorna o valor de um n�mero elevado � pot�ncia de outro. Exemplo: pow(2, 3) retorna 8.
+
+---
+
+# property()
+A fun��o property() � usada para definir propriedades de classe em Python. Ela permite encapsular a l�gica de acesso e modifica��o de atributos de uma classe.
+
+---
+
+# repr()
+A fun��o repr() retorna uma string que representa formalmente um objeto (�til para depura��o). Exemplo: repr('Hello') retorna "'Hello'".
+
+---
+
+# reversed()
+A fun��o reversed() retorna um iterador que percorre um objeto iter�vel na ordem inversa. Exemplo: reversed([1, 2, 3]) retorna [3, 2, 1].
+
+---
+
+# round()
+A fun��o round() arredonda um n�mero para o valor mais pr�ximo, ou para o n�mero de casas decimais especificado. Exemplo: round(3.14159, 2) retorna 3.14.
+
+---
+
+# set()
+A fun��o set() cria um conjunto. Um conjunto � uma cole��o desordenada de elementos �nicos. Exemplo: set([1, 2, 2, 3]) retorna {1, 2, 3}.
+
+---
+
+# slice()
+A fun��o slice() retorna um objeto slice, que pode ser usado para fatiar sequ�ncias como listas, strings, etc. Exemplo: slice(1, 5) retorna uma fatia que pode ser usada em um �ndice de lista.
+
+---
+
+# sorted()
+A fun��o sorted() retorna uma nova lista ordenada de um iter�vel. Exemplo: sorted([3, 1, 2]) retorna [1, 2, 3].
+
+---
+
+# staticmethod()
+O decorator @staticmethod define um m�todo est�tico em uma classe. M�todos est�ticos n�o recebem automaticamente a inst�ncia (self) ou a classe (cls) como primeiro argumento.
+
+---
+
+# str()
+A fun��o str() converte um objeto em uma string. Exemplo: str(123) retorna '123'.
+
+---
+
+# sum()
+A fun��o sum() retorna a soma de um iter�vel de n�meros. Exemplo: sum([1, 2, 3]) retorna 6.
+
+---
+
+# super()
+A fun��o super() � usada para chamar m�todos da classe base (superclasse). Exemplo: super().__init__() chama o m�todo __init__ da classe base.
+
+---
+
+# tuple()
+A fun��o tuple() cria uma tupla. Uma tupla � uma sequ�ncia imut�vel de valores. Exemplo: tuple([1, 2, 3]) retorna (1, 2, 3).
+
+---
+
+# type()
+A fun��o type() retorna o tipo de um objeto. Exemplo: type(123) retorna <class 'int'>.
+
+---
+
+# vars()
+A fun��o vars() retorna o dicion�rio de atributos de um objeto.
+
+---
+
+# zip()
+A fun��o zip() combina v�rios iter�veis, retornando um iterador de tuplas com elementos correspondentes. Exemplo: zip([1, 2, 3], ['a', 'b', 'c']) retorna [(1, 'a'), (2, 'b'), (3, 'c')].
+
+---
+
+# print()
+A fun��o print() exibe a sa�da na tela. Pode aceitar m�ltiplos argumentos e diferentes tipos de dados, como strings, n�meros e listas.
+
+---
+
+# len()
+A fun��o len() retorna o tamanho de um objeto, como o n�mero de itens em uma lista ou o n�mero de caracteres em uma string.
+
+---
+
+# def
+A palavra-chave def � usada para definir uma fun��o em Python. Ela � seguida pelo nome da fun��o e pelos par�metros entre par�nteses.
+
+---
+
+# lambda
+A express�o lambda cria fun��es an�nimas, �teis para fun��es curtas que n�o precisam ser nomeadas explicitamente.
+
+---
+
+# list comprehensions
+Uma maneira concisa de criar listas em Python, usando uma �nica linha de c�digo. Exemplo: [x for x in range(10)] cria uma lista de n�meros de 0 a 9.
+
+---
+
+# map()
+A fun��o map() aplica uma fun��o a todos os itens de um objeto iter�vel, como uma lista. Exemplo: map(func, list) retorna um iterador.
+
+---
+
+# filter()
+A fun��o filter() filtra itens de um objeto iter�vel com base em uma fun��o condicional. Exemplo: filter(func, list) retorna os itens que atendem � condi��o.
+
+---
+
+# reduce()
+A fun��o reduce() da biblioteca functools aplica uma fun��o acumuladora em uma sequ�ncia, reduzindo-a a um �nico valor. Exemplo: reduce(func, list).
+
+---
+
+# enumerate()
+A fun��o enumerate() adiciona um contador a um iter�vel, retornando-o como um objeto enumerado. �til ao iterar com la�os for para obter o �ndice de cada elemento.
+
+---
+
+# zip()
+A fun��o zip() combina dois ou mais iter�veis, retornando um iterador de tuplas correspondentes de cada iter�vel.
+
+---
+
+# try/except
+O bloco try/except � usado para capturar e tratar exce��es (erros) em Python, prevenindo que o programa quebre com erros inesperados.
+
+---
+
+# with
+A palavra-chave with � usada para simplificar o gerenciamento de recursos como arquivos. Garante que recursos sejam fechados ou liberados corretamente.
+
+---
+
+# None
+O valor especial None em Python indica a aus�ncia de um valor ou um valor nulo. Ele � o equivalente ao null em outras linguagens de programa��o.
+
+---
+
+# __init__()
+O m�todo __init__() � o construtor em classes Python. Ele � chamado quando um objeto da classe � instanciado, sendo usado para inicializar atributos.
+
+---
+
+# self
+O par�metro self em m�todos de classe refere-se � inst�ncia atual do objeto. � obrigat�rio em m�todos de inst�ncia para acessar os atributos e m�todos do objeto.
+
+---
+
+# *args e **kwargs
+*args permite passar um n�mero vari�vel de argumentos posicionais para uma fun��o. **kwargs permite passar um n�mero vari�vel de argumentos nomeados.
+
+---
+
+# decorators
+Decorators s�o fun��es que modificam o comportamento de outras fun��es ou m�todos. Eles s�o aplicados usando a sintaxe @decorator acima da fun��o que ser� decorada.
+
+---
+
+# yield
+A palavra-chave yield � usada em fun��es geradoras, permitindo retornar um valor e pausar a execu��o, que pode ser retomada posteriormente.
+
+---
+
+# os
+O m�dulo os fornece fun��es para interagir com o sistema operacional, como manipula��o de arquivos e diret�rios, leitura de vari�veis de ambiente, etc.
+
+---
+
+# sys
+O m�dulo sys permite acessar fun��es e vari�veis espec�ficas do sistema Python, como argumentos da linha de comando e a manipula��o do interpretador.
+
+---
+
+# virtualenv
+Virtualenv � uma ferramenta que cria ambientes isolados de Python, permitindo que depend�ncias de projetos sejam gerenciadas separadamente.
+
+---
+
+# pip
+O pip � o gerenciador de pacotes do Python. Ele permite instalar, atualizar e remover pacotes de bibliotecas externas.
+
+---
+
+# list()
+A fun��o list() converte iter�veis (como strings ou tuplas) em listas. Exemplo: list("abc") retorna ['a', 'b', 'c'].
+
+---
+
+# dict()
+A fun��o dict() cria um dicion�rio Python, um tipo de dado que mapeia chaves a valores. Exemplo: dict(a=1, b=2) cria {'a': 1, 'b': 2}.
+
+---
+
+# range()
+A fun��o range() gera uma sequ�ncia de n�meros. Exemplo: range(5) gera [0, 1, 2, 3, 4].
+
+---
+
+# sorted()
+A fun��o sorted() retorna uma lista ordenada dos elementos de um iter�vel. Exemplo: sorted([3, 1, 2]) retorna [1, 2, 3].
+
+---
+
+# reversed()
+A fun��o reversed() inverte a ordem de um iter�vel. Exemplo: reversed([1, 2, 3]) retorna [3, 2, 1].
+
+---
+
+# isinstance()
+A fun��o isinstance() verifica se um objeto � uma inst�ncia de uma determinada classe. Exemplo: isinstance(5, int) retorna True.
+
+---
+
+# type()
+A fun��o type() retorna o tipo de um objeto. Exemplo: type(5) retorna <class 'int'>.
+
+---
+
+# h1 
+A função h1 é um título principal do seu site 
+
+---
+
+# P 
+A função p é um paragrafo onde você pode escolher o que escrever em seu sites
+
+---
+
+# Body
+O body é o corpo do site, do HTML, tudo que tiver no seu site está dentro de body
+
+---
+
+# text-aling 
+Text-aling é usada no css para alinhar o texto que está escrito
+
+--- 
+
+# display 
+A função display 
+
+---
+
+# font-family 
+A função font-family é usada no css para mudar a fonte do texto 
+
+---
+
+# Backgorud
+A função backgroud é usada no css, ela significa o "fundo"
+
+---
+
+# margin-top 
+A função margin-top é usada no css para dar o devido afastamento do item acima 
+
+---
+
+# Border 
+A função border é usada para modificar a borda do site, ou de algum item 
